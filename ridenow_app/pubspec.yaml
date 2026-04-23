@@ -1,0 +1,29 @@
+name: ridenow_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # Để gọi API từ Backend
+  provider: ^6.1.1 # Quản lý trạng thái (Login, giỏ hàng...)
+  shared_preferences: ^2.2.2 # Lưu Token đăng nhập vào máy
+  google_fonts: ^6.1.0 # Font chữ cho đẹp
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/welcome.png
+    - assets/images/welcome_bg.png
+    - assets/images/logo_new.png
